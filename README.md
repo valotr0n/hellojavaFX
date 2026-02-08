@@ -1,6 +1,7 @@
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This repo is dedicated to java lab work. The labs foucs on develop GUIs using the JavaFX lib and dev various APIs in the backend and dev many other backend func
 
 ## Folder Structure
 
