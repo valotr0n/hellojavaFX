@@ -6,9 +6,9 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Launch ImagePallet",
+      "name": "Launch Graphics2D",
       "request": "launch",
-      "mainClass": "First.ImagePallet",
+      "mainClass": "First.Graphics2D",
       "vmArgs": "--module-path \"C:\\Users\\Валерий\\Desktop\\javafx-sdk-25.0.2\\lib\" --add-modules javafx.controls,javafx.fxml"
     }
   ]
