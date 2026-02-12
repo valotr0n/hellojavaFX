@@ -7,7 +7,7 @@ import javafx.scene.layout.*;
 import javafx.scene.text.*;
 import javafx.stage.*;
 
-public class HelloFX extends Application{
+public class HelloFX extends Application {
     public static void main(String[] args) {
         Application.launch(args);
     }

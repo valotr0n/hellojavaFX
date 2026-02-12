@@ -6,9 +6,9 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Launch Graphics2D",
+      "name": "Launch GraphicEditor",
       "request": "launch",
-      "mainClass": "First.Graphics2D",
+      "mainClass": "First.GraphicEditor",
       "vmArgs": "--module-path \"C:\\Users\\Валерий\\Desktop\\javafx-sdk-25.0.2\\lib\" --add-modules javafx.controls,javafx.fxml"
     }
   ]
