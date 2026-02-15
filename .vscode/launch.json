@@ -1,15 +1,28 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
+    {
+      "type": "java",
+      "name": "ProgrammingLanguageTable",
+      "request": "launch",
+      "mainClass": "First.LanguageTable.ProgrammingLanguageTable",
+      "projectName": "hellojavaFX_43e253ce",
+      "vmArgs": "--module-path \"C:/Users/Валерий/Desktop/javafx-sdk-25.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+      "type": "java",
+      "name": "Charts",
+      "request": "launch",
+      "mainClass": "First.Charts",
+      "projectName": "hellojavaFX_43e253ce",
+      "vmArgs": "--module-path \"C:/Users/Валерий/Desktop/javafx-sdk-25.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+    },
     {
       "type": "java",
       "name": "Launch GraphicEditor",
       "request": "launch",
       "mainClass": "First.GraphicEditor",
-      "vmArgs": "--module-path \"C:\\Users\\Валерий\\Desktop\\javafx-sdk-25.0.2\\lib\" --add-modules javafx.controls,javafx.fxml"
+      "vmArgs": "--module-path \"C:/Users/Валерий/Desktop/javafx-sdk-25.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
     }
   ]
 }
