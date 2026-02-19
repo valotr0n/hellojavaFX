@@ -7,22 +7,47 @@
       "request": "launch",
       "mainClass": "First.LanguageTable.ProgrammingLanguageTable",
       "projectName": "hellojavaFX_43e253ce",
-      "vmArgs": "--module-path \"C:/Users/Валерий/Desktop/javafx-sdk-25.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+      "vmArgs": "--module-path \"C:\\JavaFX\\javafx-sdk-25.0.2\\lib\" --add-modules javafx.controls,javafx.fxml,javafx.media"
     },
     {
       "type": "java",
-      "name": "Charts",
+      "name": "Graphics2D",
       "request": "launch",
-      "mainClass": "First.Charts",
+      "mainClass": "First.Graphics2D",
       "projectName": "hellojavaFX_43e253ce",
-      "vmArgs": "--module-path \"C:/Users/Валерий/Desktop/javafx-sdk-25.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+      "vmArgs": "--module-path \"C:\\JavaFX\\javafx-sdk-25.0.2\\lib\" --add-modules javafx.controls,javafx.fxml,javafx.media"
     },
     {
       "type": "java",
-      "name": "Launch GraphicEditor",
+      "name": "GraphicEditor",
       "request": "launch",
       "mainClass": "First.GraphicEditor",
-      "vmArgs": "--module-path \"C:/Users/Валерий/Desktop/javafx-sdk-25.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+      "projectName": "hellojavaFX_43e253ce",
+      "vmArgs": "--module-path \"C:\\JavaFX\\javafx-sdk-25.0.2\\lib\" --add-modules javafx.controls,javafx.fxml,javafx.media"
+    },
+    {
+      "type": "java",
+      "name": "HelloFX",
+      "request": "launch",
+      "mainClass": "First.HelloFX",
+      "projectName": "hellojavaFX_43e253ce",
+      "vmArgs": "--module-path \"C:\\JavaFX\\javafx-sdk-25.0.2\\lib\" --add-modules javafx.controls,javafx.fxml,javafx.media"
+    },
+    {
+      "type": "java",
+      "name": "ImagePallet",
+      "request": "launch",
+      "mainClass": "First.ImagePallet",
+      "projectName": "hellojavaFX_43e253ce",
+      "vmArgs": "--module-path \"C:\\JavaFX\\javafx-sdk-25.0.2\\lib\" --add-modules javafx.controls,javafx.fxml,javafx.media"
+    },
+    {
+      "type": "java",
+      "name": "Run JavaFX",
+      "request": "launch",
+      "mainClass": "First.VideoPlayerApp",
+      "projectName": "hellojavaFX_43e253ce",
+      "vmArgs": "--module-path \"C:\\JavaFX\\javafx-sdk-25.0.2\\lib\" --add-modules javafx.controls,javafx.fxml,javafx.media"
     }
   ]
 }
