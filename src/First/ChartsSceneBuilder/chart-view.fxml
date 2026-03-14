@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="First.ChartsSceneBuilder.Controller">
+    <center>
+        <LineChart fx:id="chart" createSymbols="false" title="Line Charts">
+            <xAxis>
+                <NumberAxis fx:id="xAxis" label="Argument" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis fx:id="yAxis" label="Function" />
+            </yAxis>
+        </LineChart>
+    </center>
+    <bottom>
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <padding>
+                <Insets bottom="8" left="8" right="8" top="8" />
+            </padding>
+            <Label text="Функция:" />
+            <ComboBox fx:id="functionCombo" prefWidth="220" />
+            <Label text="Толщина:" />
+            <TextField fx:id="widthField" text="2" prefWidth="50" />
+            <Label text="min:" />
+            <TextField fx:id="xMinField" text="-3.14" prefWidth="70" />
+            <Label text="max:" />
+            <TextField fx:id="xMaxField" text="3.14" prefWidth="70" />
+            <Label text="шаг:" />
+            <TextField fx:id="stepField" text="0.01" prefWidth="70" />
+            <RadioButton fx:id="showRadio" text="show" selected="true">
+                <toggleGroup>
+                    <ToggleGroup fx:id="visGroup" />
+                </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="hideRadio" text="hide" toggleGroup="$visGroup" />
+            <Button text="Построить" onAction="#buildChart" />
+        </HBox>
+    </bottom>
+</BorderPane>
